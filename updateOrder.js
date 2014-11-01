@@ -5,10 +5,11 @@ function updateOrder(){
     var numCake = parseInt(doucument.getElemetById("cakedonuts").value);
     var numGlazed = parseInt(doucument.getElemetById("glazeddonuts").value);
 
-    if(isNaN(numCake))
+    if(isNaN(numCake))    //如果返回true，表示数据不是数字
         numCake = 0;
     if(isNaN(numGlazed))
         numGlazed = 0;
+
     var subTotal = (numCake + numGlazed) * DONUTPRICE;
     var tax = subTotal +TAX;
     var total = subTotal + tax;
