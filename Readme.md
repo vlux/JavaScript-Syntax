@@ -1,5 +1,5 @@
 ### Learning the LiveScript
-                From the beginning
+###                From the beginning
 
 
 
